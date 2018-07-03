@@ -1,0 +1,56 @@
+*{
+
+  font-family: serif;
+}
+
+.ip_logo{
+  text-align: center;
+}
+
+input{
+  width: 20%;
+  margin-left: 43%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button{
+  background: silver;
+  border-radius: 5px;
+  margin-left: 50%;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+
+
+}
+
+button:hover{
+  background: #009999;
+
+
+}
+
+
+.table{
+  margin-bottom: 50px;
+}
+
+
+#map{
+  height: 400px;
+  width: 90%;
+  background: black;
+  margin-left: 5%;
+  border: 2px solid black;
+
+}
+
+
+#article{
+  height: 400px;
+  width: 90%;
+  background: silver;
+  margin-top: 10px;
+  margin-left: 5%;
+  border: 2px solid black;
+
+}
