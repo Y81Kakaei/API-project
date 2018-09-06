@@ -1,56 +1,59 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-  font-family: serif;
+* {
+  font-family: Montserrat, sans-serif;
 }
 
-.ip_logo{
+body {
+  padding-bottom: 2%;
+}
+
+.ip_logo {
   text-align: center;
 }
 
-input{
+input {
   width: 20%;
   margin-left: 43%;
   border-radius: 5px;
   border: 1px solid black;
 }
-button{
+
+button {
   background: silver;
   border-radius: 5px;
   margin-left: 50%;
   margin-top: 10px;
   transition-duration: 0.4s;
-
-
 }
 
-button:hover{
+button:hover {
   background: #009999;
-
-
 }
 
-
-.table{
+.table {
   margin-bottom: 50px;
 }
 
+th {
+  font-weight: bold;
+}
 
-#map{
+#map {
   height: 400px;
   width: 90%;
   background: black;
   margin-left: 5%;
   border: 2px solid black;
-
 }
 
-
-#article{
+#article {
   height: 400px;
   width: 90%;
   background: silver;
   margin-top: 10px;
   margin-left: 5%;
   border: 2px solid black;
-
+  overflow: scroll;
+  padding: 1%;
 }
